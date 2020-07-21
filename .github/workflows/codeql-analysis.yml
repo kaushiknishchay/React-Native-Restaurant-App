@@ -40,7 +40,7 @@ jobs:
       run: npm install
 
     - name: Build
-      run: npm build:web
+      run: npm run build:web
 #       uses: github/codeql-action/autobuild@v1
 
     # ℹ️ Command-line programs to run using the OS shell.
