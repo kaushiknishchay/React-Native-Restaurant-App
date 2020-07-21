@@ -17,6 +17,9 @@ jobs:
     steps:
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.1
+      with:
+        node-version: 10
+
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
